@@ -1,0 +1,69 @@
+<%-- 
+  Author: Usiel Figueroa
+  Date: June 09, 2025
+  CSD 430-A311 Server-Side Development 
+  Module 2 Assignment: Java Scriplet - Data Display 
+  Purpose: The purpose of the code is to dynamically display information about the selected topic of Washington State using JSP scriptlets and an HTML table styled with external CSS.
+  
+  References 
+
+
+(n.d.). HTML HEX Colors. W3schools. Retrieved May 26, 2025, from https://www.w3schools.com/html/html_colors_hex.asp 
+
+(n.d.). JSP - Expression Language (EL). Tutorialspoint. Retrieved May 27, 2025, from https://www.tutorialspoint.com/jsp/jsp_expression_language.htm 
+
+(2025, April 4). Introduction to JSP. Geeksforgeeks. Retrieved May 27, 2025, from https://www.geeksforgeeks.org/introduction-to-jsp/ 
+
+(n.d.). An official website of Washington State. WA.gov. Retrieved May 27, 2025, from https://wa.gov/recreation 
+
+[Susan Ceklosky]. (2014, March 5). Applying A CSS Layout To A JSP Web Application [Video]. YouTube. https://www.youtube.com/watch?v=YB9PjgLZhUk 
+
+--%>
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8f5e9; /* light green background */
+    color: #2e7d32; /* dark green text */
+    padding: 20px;
+}
+
+h1 {
+    color: #1b5e20;
+    text-align: center;
+}
+
+h2 {
+    color: #388e3c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #c8e6c9;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #a5d6a7;
+    text-align: left;
+}
+
+th {
+    background-color: #58712d;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #558b2f;
+}
