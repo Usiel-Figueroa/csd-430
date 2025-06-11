@@ -1,0 +1,54 @@
+/* style.css
+Usiel Figueroa  
+June 10, 2025 
+CSD 430-A311 Server-Side Development */
+body {
+    background-color: #ffffff;
+    color: #001f3f; /* Navy blue text */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1, h2 {
+    color: #001f3f;
+    border-bottom: 2px solid #001f3f;
+    padding-bottom: 5px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+select, input[type="submit"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: #001f3f;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+select {
+    background-color: #f8f8f8;
+    color: #001f3f;
+    border: 1px solid #001f3f;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #001f3f;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #001f3f;
+    padding: 10px;
+    text-align: left;
+}
